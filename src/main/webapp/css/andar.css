@@ -1,0 +1,195 @@
+.andar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 90vh;
+}
+
+.andar .planta {
+    width: 838px;
+    height: 712px;
+    overflow: hidden;
+}
+
+.andar .title {
+    color: #13294B;
+    text-align: center;
+    font-family: Arial;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: block;
+    margin-bottom: 72px;
+}
+
+.andar .menu-predio {
+    position: absolute;
+    top: 55px;
+    left: 0;
+    width: 190px;
+    height: 100%;
+    background: #D9D9D9;
+}
+
+.andar .predio-img {
+    margin-top: 30px;
+    margin-left: 23px;
+}
+
+.andar .button-voltar {
+    width: 112px;
+    height: 36px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #13294B;
+    color: #FFF;
+    text-align: center;
+    font-family: Arial;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+    outline: none;
+    margin-left: 39px;
+}
+
+.andar .info {
+    position: absolute;
+    cursor: pointer;
+}
+
+.andar #info1 {
+    margin-top: 177px;
+    margin-left: 125px;
+}
+.andar #info2 {
+    margin-top: 60px;
+    margin-left: 186px;
+}
+.andar #info3 {
+    margin-top: 267px;
+    margin-left: 125px;
+}
+.andar #info4 {
+    margin-top: 430px;
+    margin-left: 58px;
+}
+.andar #info5 {
+    margin-top: 428px;
+    margin-left: 150px;
+}
+.andar #info6 {
+    margin-top: 429px;
+    margin-left: 245px;
+}
+.andar #info7 {
+    margin-top: 367px;
+    margin-left: 397px;
+}
+.andar #info8 {
+    margin-top: 537px;
+    margin-left: 285px;
+}
+.andar #info9 {
+    margin-top: 367px;
+    margin-left: 497px;
+}
+.andar #info10 {
+    margin-top: 509px;
+    margin-left: 467px;
+}
+.andar #info11 {
+    margin-top: 430px;
+    margin-left: 715px;
+}
+.andar #info12 {
+    margin-top: 213px;
+    margin-left: 428px;
+}
+
+.modal-andar .modal-title-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-andar .modal-title {
+    white-space: nowrap;
+    color: #13294B;
+    font-family: Arial;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.modal-andar .modal-icon-x {
+    cursor: pointer;
+    color: #13294B !important;
+}
+
+.modal-andar .modal-servidores-row {
+    display: flex;
+    align-items: center;
+}
+
+.modal-andar .servidores-title {
+    color: #13294B;
+    font-family: Arial;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.modal-andar table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 24px;
+}
+
+.modal-andar table td {
+    padding: 20px 10px;
+}
+
+.modal-andar table th {
+    padding: 20px 10px;
+}
+
+.modal-andar table tr {
+    border-bottom: 1px solid #ccc;
+}
+
+
+@media (max-width: 1279px) {
+    .andar .menu-predio {
+        display: none;
+    }
+    .andar .planta{
+        position: relative;
+        overflow: scroll;
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 1366px) {
+    .andar .title {
+        margin-top: 52px;
+        margin-bottom: 12px;
+    }
+    .andar .planta {
+        margin-left: 190px;
+    }
+}
+
+@media (max-width: 767px) {
+    .andar {
+        height: 110vh;
+    }
+    .andar .title {
+        margin-top: 12px;
+        margin-bottom: 20px;
+    }
+}

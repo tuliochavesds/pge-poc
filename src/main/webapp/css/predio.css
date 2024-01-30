@@ -1,0 +1,103 @@
+.predio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 90vh;
+}
+
+.predio .menu-container {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    height: 558px;
+    overflow-y: scroll;
+    width: 200px;
+    margin-bottom: 32px;
+    margin-left: 432px;
+    direction: rtl;
+}
+
+.predio .menu-button {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    width: 156px;
+    height: 44px;
+    border-radius: 22px;
+    background: #fff;
+    border: none;
+    outline:none;
+    margin: 12px 0px;
+    color: #13294B;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.predio ::-webkit-scrollbar {
+  width: 8px;
+  position: absolute;
+  margin-left: 40px;
+}
+
+.predio ::-webkit-scrollbar-track {
+  background: #fff; 
+  border-radius: 50px;
+}
+ 
+.predio ::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 50px;
+}
+
+.predio .predio-img {
+    position: absolute;
+    margin-right: 167px;
+    margin-top: -49px;
+}
+
+.predio .blue-box-img {
+    position: absolute;
+    z-index: -1;
+    margin-right: -21px;
+    margin-top: -13px;
+}
+
+@media (max-width: 767px) {
+    .predio {
+        background-image: none !important;
+        background: #13294B;
+        border-radius: 30px;
+        height: 88vh;
+    }
+
+    .predio .predio-img {
+        display: none;
+    }
+
+    .predio .blue-box-img {
+        display: none;
+    }
+
+    .predio .menu-container {
+        margin-bottom: 50px;
+        margin-left: 0px;
+        width: 100vw;
+        height: 88vh;
+        margin-top: 50px;
+        overflow-y: scroll;
+        align-items: center;
+        margin-left: 32px;
+    }
+
+    .predio .menu-button {
+        width: calc(100% - 48px);
+        margin-left: 48px;
+    }
+}
+
+
+
+
